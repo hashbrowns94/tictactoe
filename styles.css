@@ -2,8 +2,63 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: 'Helvetica', 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #title {
     text-align: center;
+    font-size: 35px;
+    color: rgb(98, 91, 99);
+}
+
+#buttonContainer {
+    display: block;
+    padding-bottom: 35px;
+}
+
+.buttons {
+    text-align: center;
+    padding: 5px;
+    border: 3px solid rgb(98, 91, 99);
+    border-radius: 5%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(98, 91, 99);
+}
+
+.players {
+    text-align: center;
+    color: rgb(97, 97, 97);
+}
+
+.playerId {
+    font-size: 25px;
+}
+
+#playerOne {
+    position: absolute;
+    margin-right: 60%;
+    margin-bottom: 15%;
+}
+
+#playerTwo {
+    position: absolute;
+    margin-left: 60%;
+    margin-bottom: 15%;
+}
+
+#container {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.space {
+    border: 3px solid rgb(151, 146, 146);
+    width: 200px;
+    height: 200px;
 }

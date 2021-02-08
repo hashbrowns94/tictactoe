@@ -11,9 +11,36 @@
     <div id = 'title'>
     <h1>Tic Tac Toe</h1>
     </div>
-    
-    <div id = 'container'>
+
+    <div id = 'buttonContainer'>
+        <button class = 'buttons' id = 'reset'>New Players</button>
+        <button class = 'buttons' id = 'reset'>Reset Board</button>
     </div>
+
+    <div id = 'playerOne' class = 'players'>
+        <span class = 'playerId' id = 'usernameOne'><b>Player 1</b></span><br>
+        <span class = 'winningTally' id = 'p1Tally'>Games Won: </span><br>
+        <span class = 'pieces' id = 'p1Piece'>Game Piece: X</span>
+    </div>
+    
+     <div id = 'container'>
+        <div class = 'space' id = 'one'></div>
+        <div class = 'space' id = 'two'></div>
+        <div class = 'space' id = 'three'></div>
+        <div class = 'space' id = 'four'></div>
+        <div class = 'space' id = 'five'></div>
+        <div class = 'space' id = 'six'></div>
+        <div class = 'space' id = 'seven'></div>
+        <div class = 'space' id = 'eight'></div>
+        <div class = 'space' id = 'nine'></div>
+    </div>
+
+    <div id = 'playerTwo' class = 'players'>
+        <span class = 'playerId' id = 'usernameTwo'><b>Player 2</b></span><br>
+        <span class = 'winningTally' id = 'p2Tally'>Games Won: </span><br>
+        <span class = 'pieces' id = 'p2Piece'>Game Piece: O</span>
+    </div>
+
     
     <script src = 'app.js'></script>
 </body>
